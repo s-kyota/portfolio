@@ -1,0 +1,452 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+@media (min-width: 769px) {
+.sp {
+  display: none;
+}
+}
+
+* {
+  color: #fff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0a0a0a;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  line-height: 1.8;
+  letter-spacing: 0.1em;
+}
+
+span {
+  color: #008AC1;
+}
+
+.top-section {
+  height: 600px;
+}
+
+.header {
+  position: relative;
+  top: -70px;
+  padding: 40px 70px 0 0;
+  font-size: 16px;
+  float: right;
+}
+
+.header-nav ul {
+  width: 265px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-right: 50px;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+}
+
+.header-nav img {
+  width: 25px;
+  margin-right: 25px;
+  vertical-align: bottom;
+}
+
+.contact {
+  display: inline-block;
+  padding: 0.3em 1em;
+  text-decoration: none;
+  border: solid 2px #008AC1;
+  border-radius: 3px;
+  transition: .4s;
+}
+
+.contact:hover {
+  background: #008AC1;
+}
+
+.ttl {
+  text-align: center;
+  position: relative;
+  top: 20vw;
+}
+
+.ttl h1 {
+  display: inline-block;
+  font-size: 56px;
+  padding-bottom: 10px;
+  border-bottom: 5px solid #008AC1;
+}
+
+.profile {
+  margin-bottom: 150px;
+}
+
+.section-ttl {
+  text-align: center;
+  padding-top: 80px;
+}
+
+.section-ttl h2 {
+  display: inline;
+  font-size: 30px;
+  padding-bottom: 10px;
+  border-bottom: 5px solid #008AC1;
+}
+
+.profile-img-text {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.profile-img {
+  width: 50%;
+  text-align: right;
+  margin-right: 40px;
+}
+
+.profile-img img {
+  width: 350px;
+  height: 350px;
+}
+
+.profile-text {
+  width: 50%;
+  margin-left: 40px;
+}
+
+.profile-text h3 {
+  font-size: 25px;
+}
+
+.profile-text p {
+  font-size: 16px;
+  margin-top: 25px;
+}
+
+.skill {
+  margin-bottom: 150px;
+}
+
+.skill-container {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.skill-content {
+  width: 330px;
+  text-align: center;
+  margin: 0 80px;
+  padding: 25px;
+  border: #008AC1 solid 2px;
+}
+
+.skill-img img {
+  width: 80px;
+  height: 80px;
+}
+
+.skill-ttl {
+  margin-top: 35px;
+}
+
+.skill-ttl h3 {
+  font-size: 25px;
+}
+
+.skill-text {
+  margin-top: 35px;
+}
+
+.skill-text p {
+  font-size: 16px;
+}
+
+.price-text {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.works {
+  margin-bottom: 150px;
+}
+
+.work-content {
+  max-width: 1020px;
+  margin: 80px auto 0;
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+.work-content img {
+  width: 320px;
+  height: 180px;
+  padding: 10px;
+}
+
+  /*ホバーエフェクト*/
+.work-content img:hover {
+  transform: scale(1);
+  transition: .3s ease-in-out;
+}
+
+.work-content img:hover{
+  transform: scale(1.1);
+}
+
+.alert {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.footer {
+  height: 200px;
+}
+
+.footer-text {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.sns {
+  text-align: center;
+  align-items: center;
+  padding: 60px 0;
+}
+
+.twitter img {
+  width: 80px;
+  height: 80px;
+}
+
+
+@media(max-width: 768px) {
+  .header-nav ul {
+    display: none;
+  }
+  
+  .header {
+    padding-right: 20px;
+  }
+  
+  .contact {
+    font-size: 16px;
+  }
+  
+  .top-section {
+    height: 500px;
+  }
+  
+  .ttl {
+    top: 50vw;
+  }
+
+  .ttl h1 {
+    font-size: 48px;
+  }
+
+  .section-ttl {
+    padding-top: 50px;  
+  }
+
+  .section-ttl h2 {
+    font-size: 25px;
+  }
+
+  .profile-img {
+    margin: 0;
+    width: auto;
+  }
+
+  .profile-img img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .profile-img-text {
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
+  .profile-text {
+    text-align: center;
+    width: 100%;
+    margin: 30px 0 0;
+  }
+
+  .profile-text h3 {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .profile-text p {
+    font-size: 12px;
+    padding: 0px 4%;
+  }
+
+  .skill-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skill-content {
+    width: 270px;
+    margin-bottom: 80px;
+  }
+
+  .price-text {
+    margin-top: 0;
+  }
+
+  .price-text p {
+    font-size: 12px;
+    padding: 0px 4%;
+  }
+
+  .skill-ttl h3 {
+    font-size: 20px;
+  }
+
+  .skill-text p {
+    font-size: 14px;
+  }
+
+  .work-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .alert {
+    font-size: 12px;
+  }
+
+  .footer-text p {
+    font-size: 12px;
+  }
+
+  .twitter img {
+    width: 70px;
+    height: 70px;
+  }
+
+
+  
+    
+  
+  }
+
+
+
